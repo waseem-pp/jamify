@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Jamify",
+    "slug": "jamify",
+    "version": "1.0.0",
+    "scheme": "jamify",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#16111F"
+    },
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.jamify.app" },
+    "android": {
+      "package": "com.jamify.app",
+      "adaptiveIcon": { "backgroundColor": "#16111F" }
+    },
+    "plugins": ["expo-router", "expo-audio"],
+    "extra": {
+      "supabaseUrl": "PASTE_YOUR_SUPABASE_URL",
+      "supabaseAnonKey": "PASTE_YOUR_SUPABASE_ANON_KEY"
+    }
+  }
+}
